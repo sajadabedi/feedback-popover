@@ -15,13 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="caret-orange-600">
-      <head>
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=thumbs_up_down"
-        />
-      </head>
+    <html lang="en" className="caret-cyan-400 antialiased">
       <body className={inter.className}>{children}</body>
     </html>
   )
