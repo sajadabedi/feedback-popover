@@ -7,7 +7,7 @@ export function SuccessMessage() {
       initial={{ y: -5, opacity: 0, filter: 'blur(4px)' }}
       animate={{ y: 0, opacity: 1, filter: 'blur(0px)' }}
       transition={{ type: 'spring', duration: 0.4, bounce: 0 }}
-      className="flex h-full flex-col items-center justify-center relative z-10 bg-white backdrop-blur-sm rounded-lg"
+      className="flex h-full flex-col items-center justify-center relative z-10 bg-white backdrop-blur-sm rounded-lg dark:bg-neutral-900"
     >
       <svg
         width="32"

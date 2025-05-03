@@ -20,7 +20,7 @@ export function FeedbackForm({
       exit={{ y: 8, opacity: 0, filter: 'blur(4px)' }}
       transition={{ type: 'spring', duration: 0.4, bounce: 0 }}
       onSubmit={onSubmit}
-      className="rounded-[8px] outline outline-gray-200/30 dark:outline-neutral-500/30 shadow-sm bg-white dark:bg-neutral-800"
+      className="rounded-[8px] outline outline-gray-200/30 dark:outline-neutral-500/30 shadow-sm bg-white  dark:bg-neutral-800"
     >
       <textarea
         autoFocus
